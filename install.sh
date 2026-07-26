@@ -253,7 +253,7 @@ install_x-ui() {
         fi
     else
         last_version=$1
-        url="https://github.com/yimiha/3x-ui/releases/download/${last_version}/x-ui-linux-$(arch).tar.gz"
+        url="https://gh-proxy.com/https://github.com/yimiha/3x-ui/releases/download/${last_version}/x-ui-linux-$(arch).tar.gz"
         echo ""
         echo -e "--------------------------------------------"
         echo -e "${green}---------------->>>>开始安装 3x-ui $1${plain}"
