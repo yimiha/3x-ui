@@ -2,10 +2,10 @@
 
 **------------------一个更好的面板 • 基于Xray Core构建----------------**
 
-[![](https://img.shields.io/github/v/release/xeefei/3x-ui.svg)](https://github.com/sinian-liu/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/sinian-liu/3x-ui/release.yml.svg)](#)
+[![](https://img.shields.io/github/v/release/xeefei/3x-ui.svg)](https://github.com/yimiha/3x-ui/releases)
+[![](https://img.shields.io/github/actions/workflow/status/yimiha/3x-ui/release.yml.svg)](#)
 [![GO Version](https://img.shields.io/github/go-mod/go-version/xeefei/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/sinian-liu/3x-ui/total.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/yimiha/3x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **声明：** 此项目仅供个人学习、交流使用，请遵守当地法律法规，勿用于非法用途；请勿用于生产环境。
@@ -34,7 +34,7 @@
 ## ✰如何从其他x-ui版本迁移到〔3X-UI优化版〕？✰
 #### 1、若你用的是伊朗老哥的原版3X-UI，是可以直接〔覆盖安装〕的，因为〔3X-UI优化版〕是fork了原版3X-UI的项目，基于原有的功能进行优化的，大功能是没有变化的，主要是进行了脚本的〔汉化处理〕，其他诸如数据库文件等位置是没有改变的，所以直接覆盖安装，并不会影响你〔原有节点及配置〕等数据；安装命令如下：
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/sinian-liu/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/yimiha/3x-ui/master/install.sh)
 ```
 #### 2、若你之前用的是Docker方式安装，那先进入容器里面/命令：docker exec -it 容器id /bin/sh，再执行以上脚本命令直接【覆盖安装】即可，
 #### 3、若你用的是之前F佬的x-ui或者其他分支版本，那直接覆盖安装的话，并不能确保一定就能够兼容？建议你先去备份〔数据库〕配置文件，再进行安装〔3X-UI优化版〕。
@@ -87,7 +87,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/sinian-liu/3x-ui/master/instal
 
 - 【全新安装】请执行以下脚本：
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/sinian-liu/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/yimiha/3x-ui/master/install.sh)
 ```
 #### 如果执行了上面的代码但是报错，证明你的系统里面没有curl这个软件，请执行以下命令先安装curl软件，安装curl之后再去执行上面代码，
 ```
@@ -106,7 +106,7 @@ apt update -y&&apt install -y curl&&apt install -y socat
 若要安装指定的版本，请使用以下安装命令。 e.g., ver `v2.4.5`:
 
 ```
-VERSION=v2.4.5 && bash <(curl -Ls "https://raw.githubusercontent.com/sinian-liu/3x-ui/$VERSION/install.sh") $VERSION
+VERSION=v2.4.5 && bash <(curl -Ls "https://raw.githubusercontent.com/yimiha/3x-ui/$VERSION/install.sh") $VERSION
 ```
 ------------
 ## 若你的VPS默认有防火墙，请在安装完成之后放行指定端口
@@ -311,7 +311,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/sinian-liu/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/yimiha/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. 下载压缩包后，执行以下命令安装或升级 x-ui：
